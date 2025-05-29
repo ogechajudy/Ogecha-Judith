@@ -10,7 +10,7 @@
     body {
       margin: 0;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: Linear-gradient(135deg, #ffe3e3, #d0f4de);
+      background: linear-gradient(135deg, #ffe3e3, #d0f4de);
       color: #333;
     }
     header {
