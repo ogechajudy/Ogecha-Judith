@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Judith Moraa | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: Linear-gradient(135deg, #ffe3e3, #d0f4de);
+      color: #333;
+    }
+    header {
+      background-color: skyblue;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+    }
+    .project-grid {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .project-card {
+      background-color: lavenderblush;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      flex: 1 1 calc(50% - 1rem);
+    }
+    .skills-list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .skills-list li {
+      background: #2ec4b6;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+    }
+    .contact-links {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .contact-links li a {
+      color: #011627;
+      text-decoration: none;
+      padding: 0.5rem;
+      background-color: #ffd166;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #2ec4b6;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Judith Moraa Ogecha</h1>
+      <p>Business & IT Professional | Aspiring Frontend Developer</p>
+      <p>Nairobi, Kenya | <a href="mailto:ogechajudith069@gmail.com">ogechajudith069@gmail.com</a> | <a href="https://www.linkedin.com/in/judithogecha">LinkedIn</a>|<a href="judith ogecha">github</a></a></p>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a Business & IT professional passionate about web development and currently learning to become a Frontend Developer. I enjoy singing, reading novels, and exploring new ideas through technology. My strengths lie in technical problem-solving, communication, and teamwork.</p>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="container">
+      <h2>Professional Experience</h2>
+      <h3>IT Assistant Intern – County Government of Trans-Nzoia (Jan 2024 – Apr 2024)</h3>
+      <ul>
+        <li>Troubleshot and resolved technical issues, improving productivity.</li>
+        <li>Assisted in implementing IT solutions and configuring IFMIS.</li>
+        <li>Worked with developers and admins to increase system efficiency.</li>
+      </ul>
+      <h3>Receptionist, Social Media Manager & Sales Executive – Nairobi, KE (May 2024 – Present)</h3>
+      <ul>
+        <li>Manages front desk operations and client interactions.</li>
+        <li>Creates social media content to boost engagement.</li>
+        <li>Supports product promotions and customer service.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <h3>Canteen Automation System</h3>
+          <p>Developed a web app using HTML, CSS, MySQL, and JavaScript to enable online ordering and inventory management.</p>
+        </div>
+        <div class="project-card">
+          <h3>Personal Website</h3>
+          <p>My first portfolio built using HTML & CSS</p>
+          <a href="#">View Live</a>
+        </div>
+        <div class="project-card">
+          <h3>Task Tracker App</h3>
+          <p>Simple app to track daily goals and tasks</p>
+          <a href="#">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Skills</h2>
+      <ul class="skills-list">
+        <li><i class="fab fa-html5"></i> HTML</li>
+        <li><i class="fab fa-css3-alt"></i> CSS</li>
+        <li><i class="fab fa-js"></i> JavaScript (Learning)</li>
+        <li><i class="fab fa-figma"></i> Figma</li>
+        <li><i class="fas fa-database"></i> MySQL, SQL</li>
+        <li><i class="fas fa-code"></i> Python, Java</li>
+        <li><i class="fas fa-network-wired"></i> Networking & Security</li>
+        <li><i class="fas fa-chart-line"></i> Strategic Planning, Data Analysis</li>
+        <li><i class="fas fa-users"></i> Communication, Teamwork</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="container">
+      <h2>Education</h2>
+      <p><strong>Diploma in Business Information Technology</strong> – Kiriri Women’s University of Science and Technology | Credit 1</p>
+      <p><strong>French Studies</strong> – Mahanaim University IYF Weekend Academy</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Let's connect! Feel free to reach out for collaborations or opportunities.</p>
+      <ul class="contact-links">
+        <li><a href="mailto:ogechajudith069@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+        <li><a href="https://github.com/judithmoraa"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/judithogecha"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Judith Moraa | Designed with passion and purpose.</p>
+  </footer>
+</body>
+</html>
